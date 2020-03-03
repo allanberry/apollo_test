@@ -1,0 +1,10 @@
+{
+  "name": "apollo_test",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "lambda"
+  ],
+  "author": "Allan Berry <allan.berry@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "lambda",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "yarn run serve:lambda",
+    "serve:lambda": "netlify-lambda serve --config ./webpack.functions.js ."
+  },
+  "dependencies": {
+    "apollo-server-lambda": "^2.10.1",
+    "graphql": "^14.6.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
